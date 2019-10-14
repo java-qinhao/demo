@@ -16,6 +16,8 @@
         <module>demo-InstantiationAwareBeanPostProcessor</module>
         <module>demo-mvc</module>
         <module>demo-boot</module>
+        <module>demo-fs</module>
+        <module>demo-game</module>
     </modules>
 
     <dependencies>

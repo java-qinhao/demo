@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo-boot" />
+        <module name="demo-fs" />
+        <module name="demo-game" />
         <module name="demo-ioc" />
         <module name="demo-mvc" />
         <module name="demo-proxy" />
         <module name="demo-InstantiationAwareBeanPostProcessor" />
-        <module name="demo-ImportBeanDefinitionRegistrar" />
+        <module name="demo-boot" />
         <module name="demo-aop" />
+        <module name="demo-ImportBeanDefinitionRegistrar" />
       </profile>
     </annotationProcessing>
   </component>
