@@ -1,0 +1,6 @@
+#
+#Fri Oct 18 16:17:55 CST 2019
+com.luban.processor.MybeanFactroyProcessor=org.springframework.stereotype.Component
+com.luban.config.AppConfig=org.springframework.stereotype.Component
+com.luban.processor.MyBeanPostProssor=org.springframework.stereotype.Component
+com.luban.service.UserService=org.springframework.stereotype.Component

@@ -18,6 +18,9 @@
         <module>demo-boot</module>
         <module>demo-fs</module>
         <module>demo-game</module>
+        <module>demo-mq</module>
+        <module>demo-scan</module>
+        <module>demo-Resubmit</module>
     </modules>
 
     <dependencies>

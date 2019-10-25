@@ -8,11 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo-fs" />
         <module name="demo-game" />
+        <module name="demo-Resubmit" />
         <module name="demo-ioc" />
+        <module name="demo-mq" />
         <module name="demo-mvc" />
         <module name="demo-proxy" />
         <module name="demo-InstantiationAwareBeanPostProcessor" />
         <module name="demo-boot" />
+        <module name="demo-scan" />
         <module name="demo-aop" />
         <module name="demo-ImportBeanDefinitionRegistrar" />
       </profile>

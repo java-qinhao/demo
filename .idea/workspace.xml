@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="730b1846-2da0-4899-985c-e2e97ad92599" name="Default Changelist" comment="五子棋">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/META-INF/demo-ImportBeanDefinitionRegistrar.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/annotation/After.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/annotation/AopJ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/annotation/Around.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/annotation/Before.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/annotation/EnableProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/config/Aop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/config/AopInvocationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/config/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/config/CustomizedProxyInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/config/MyBeanFactoryPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/config/MyBeanPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/config/MyImportSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/holder/ProxyBeanHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/classes/com/luban/util/AopUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-Resubmit/demo-Resubmit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-Resubmit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/Resubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResubmitDataAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResubmitLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-boot/src/main/java/com/luban/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-boot/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-boot/target/classes/com/luban/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-boot/target/classes/com/luban/config/MyConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-fs/target/classes/com/luban/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-fs/target/classes/com/luban/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-game/target/classes/com/FiveInARow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-game/target/classes/com/Start.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ioc/src/main/java/com/luban/mapper/mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ioc/target/classes/META-INF/demo-ioc.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ioc/target/classes/META-INF/spring.components" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ioc/target/classes/com/luban/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ioc/target/classes/com/luban/config/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ioc/target/classes/com/luban/config/MyBeanNameGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ioc/target/classes/com/luban/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ioc/target/classes/com/luban/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ioc/target/classes/com/luban/processor/MyBeanPostProssor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ioc/target/classes/com/luban/processor/MybeanFactroyProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ioc/target/classes/com/luban/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mq/demo-mq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mvc/target/classes/META-INF/demo-mvc.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mvc/target/classes/com/luban/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mvc/target/classes/com/luban/config/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mvc/target/classes/com/luban/config/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mvc/target/classes/com/luban/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-proxy/target/classes/META-INF/demo-proxy.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-proxy/target/classes/com/luban/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-proxy/target/classes/com/luban/dao/$Proxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-proxy/target/classes/com/luban/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-proxy/target/classes/com/luban/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-proxy/target/classes/com/luban/dao/UserDaoImplLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-proxy/target/classes/com/luban/dao/UserDaoImplPower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-proxy/target/classes/com/luban/util/ProxyUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-scan/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-scan/src/main/java/com/luban/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-scan/src/main/java/com/luban/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-scan/src/main/java/com/luban/config/LubanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-scan/src/main/java/com/luban/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-scan/src/main/java/com/luban/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-boot/src/main/java/com/luban/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-boot/src/main/java/com/luban/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-boot/src/main/java/com/luban/config/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-boot/src/main/java/com/luban/config/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/demo-ioc/target/" />
+    <ignored path="$PROJECT_DIR$/demo-aop/target/" />
+    <ignored path="$PROJECT_DIR$/demo-proxy/target/" />
+    <ignored path="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/target/" />
+    <ignored path="$PROJECT_DIR$/demo-InstantiationAwareBeanPostProcessor/target/" />
+    <ignored path="$PROJECT_DIR$/demo-mvc/target/" />
+    <ignored path="$PROJECT_DIR$/demo-boot/target/" />
+    <ignored path="$PROJECT_DIR$/demo-fs/target/" />
+    <ignored path="$PROJECT_DIR$/demo-game/target/" />
+    <ignored path="$PROJECT_DIR$/demo-mq/target/" />
+    <ignored path="$PROJECT_DIR$/demo-scan/target/" />
+    <ignored path="$PROJECT_DIR$/demo-Resubmit/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/Resubmit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResubmitDataAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-Resubmit/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResubmitLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="85" lean-forward="true" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#1377#1378#0" expanded="true" />
+                <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../jdk/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="2224" column="17" selection-start-line="2224" selection-start-column="17" selection-end-line="2224" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../maven/repository/com/google/guava/guava/21.0/guava-21.0.jar!/com/google/common/cache/Cache.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>8080</find>
+      <find>init</find>
+      <find>org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration</find>
+      <find>scan</find>
+      <find>setMapperFactoryBean</find>
+      <find>setMapperFactoryBeanClass</find>
+      <find>keyExpress</find>
+      <find>Req</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/src/main/java/com/luban/util/ConfigurationUtil.java" />
+        <option value="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/src/main/java/com/luban/annotation/AopJ.java" />
+        <option value="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/src/main/java/com/luban/config/MyBeanFactoryPostProcessor.java" />
+        <option value="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/src/main/java/com/luban/config/AopInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/src/main/java/com/luban/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/src/main/java/com/luban/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/demo-aop/src/main/java/com/luban/Test.java" />
+        <option value="$PROJECT_DIR$/demo-InstantiationAwareBeanPostProcessor/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-InstantiationAwareBeanPostProcessor/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/src/main/java/com/luban/config/Aop.java" />
+        <option value="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/src/main/java/com/luban/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-InstantiationAwareBeanPostProcessor/src/main/java/com/luban/config/MyInstantiationAwareaBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/demo-InstantiationAwareBeanPostProcessor/src/main/java/com/luban/service/Service2.java" />
+        <option value="$PROJECT_DIR$/demo-InstantiationAwareBeanPostProcessor/src/main/java/com/luban/service/Service1.java" />
+        <option value="$PROJECT_DIR$/demo-InstantiationAwareBeanPostProcessor/src/main/java/com/luban/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/demo-mvc/src/main/java/com/luban/config/Appconfig.java" />
+        <option value="$PROJECT_DIR$/demo-mvc/src/main/java/com/luban/Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-mvc/src/main/java/com/luban/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/demo-mvc/src/main/java/com/luban/config/Application.java" />
+        <option value="$PROJECT_DIR$/demo-aop/src/main/java/com/luban/config/LubanAspect.java" />
+        <option value="$PROJECT_DIR$/demo-boot/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/demo-ImportBeanDefinitionRegistrar/src/main/java/com/luban/Test.java" />
+        <option value="$PROJECT_DIR$/demo-fs/src/main/java/com/luban/User.java" />
+        <option value="$PROJECT_DIR$/demo-fs/src/main/java/com/luban/Test.java" />
+        <option value="$PROJECT_DIR$/demo-game/src/main/java/com/Start.java" />
+        <option value="$PROJECT_DIR$/demo-game/src/main/java/com/FiveInARow.java" />
+        <option value="$PROJECT_DIR$/demo-mvc/src/main/java/com/luban/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/demo-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-ioc/src/main/java/com/luban/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/demo-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-boot/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/demo-boot/src/main/resources/application-druid.yml" />
+        <option value="$PROJECT_DIR$/demo-boot/src/main/java/com/luban/Test.java" />
+        <option value="$PROJECT_DIR$/demo-scan/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-scan/src/main/java/com/luban/service/UserService.java" />
+        <option value="$PROJECT_DIR$/demo-scan/src/main/java/com/luban/config/LubanMapper.java" />
+        <option value="$PROJECT_DIR$/demo-scan/src/main/java/com/luban/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/demo-scan/src/main/java/com/luban/config/config.java" />
+        <option value="$PROJECT_DIR$/demo-scan/src/main/java/com/luban/Test.java" />
+        <option value="$PROJECT_DIR$/demo-boot/src/main/java/com/luban/config/MyConfiguration.java" />
+        <option value="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/Test.java" />
+        <option value="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/LocalLock.java" />
+        <option value="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResubmitLock.java" />
+        <option value="$PROJECT_DIR$/demo-Resubmit/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/Resubmit.java" />
+        <option value="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResponseDTO.java" />
+        <option value="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResponseCode.java" />
+        <option value="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResubmitDataAspect.java" />
+        <option value="$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/controller/UserController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\soft\maven\repository" />
+        <option name="userSettingsFile" value="D:\soft\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-aop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-ImportBeanDefinitionRegistrar" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-Resubmit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-Resubmit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-Resubmit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-Resubmit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-Resubmit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="luban" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-Resubmit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="luban" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-Resubmit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="luban" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="demo" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-boot/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.luban.service.aa" />
+      <recent name="com.luban.config" />
+      <recent name="com.luban.annotation" />
+      <recent name="com.luban.service" />
+      <recent name="com.luban.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\soft\idea\work\demo\demo-boot\src\main\resources" />
+      <recent name="D:\soft\idea\work\demo\demo-boot\src\main\resources\META-INF" />
+      <recent name="D:\soft\idea\work\demo\demo-ImportBeanDefinitionRegistrar\src\test\java" />
+      <recent name="D:\soft\idea\work\demo\demo-ImportBeanDefinitionRegistrar\src\main\java\com\luban\config" />
+      <recent name="D:\soft\idea\work\demo\demo-proxy\src\main\java\com\luban\dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luban.Test" />
+      <module name="demo-ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luban.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luban.Test" />
+      <module name="demo-scan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luban.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luban.Test" />
+      <module name="demo-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luban.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-Resubmit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luban.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luban.Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luban.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luban.Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Test (1)" />
+        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Spring Boot.Test" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="730b1846-2da0-4899-985c-e2e97ad92599" name="Default Changelist" comment="" />
+      <created>1566802368534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566802368534</updated>
+      <workItem from="1566802371138" duration="2376000" />
+      <workItem from="1566804779807" duration="5443000" />
+      <workItem from="1566868409982" duration="291000" />
+      <workItem from="1566888530299" duration="2968000" />
+      <workItem from="1567045607165" duration="107000" />
+      <workItem from="1567389239630" duration="6093000" />
+      <workItem from="1567402374038" duration="9803000" />
+      <workItem from="1567499043359" duration="2302000" />
+      <workItem from="1567560736938" duration="577000" />
+      <workItem from="1567561425520" duration="11754000" />
+      <workItem from="1567665043720" duration="25514000" />
+      <workItem from="1568078138998" duration="16400000" />
+      <workItem from="1568185753913" duration="1813000" />
+      <workItem from="1568189111588" duration="10000" />
+      <workItem from="1568596320858" duration="19488000" />
+      <workItem from="1568682375136" duration="19368000" />
+      <workItem from="1568769160869" duration="657000" />
+      <workItem from="1568769830659" duration="15748000" />
+      <workItem from="1568855119447" duration="7419000" />
+      <workItem from="1568941950059" duration="8450000" />
+      <workItem from="1569204901294" duration="570000" />
+      <workItem from="1569210400901" duration="12261000" />
+      <workItem from="1569287148217" duration="2327000" />
+      <workItem from="1569393568255" duration="4233000" />
+      <workItem from="1569462744761" duration="1985000" />
+      <workItem from="1569485241443" duration="1038000" />
+      <workItem from="1570669781323" duration="6662000" />
+      <workItem from="1570785114236" duration="598000" />
+      <workItem from="1570842200900" duration="13054000" />
+      <workItem from="1571017309966" duration="645000" />
+      <workItem from="1571023798110" duration="1875000" />
+      <workItem from="1571191280903" duration="849000" />
+      <workItem from="1571197945458" duration="3000" />
+      <workItem from="1571198104471" duration="6000" />
+      <workItem from="1571276703054" duration="1228000" />
+      <workItem from="1571379110625" duration="1922000" />
+      <workItem from="1571387157446" duration="602000" />
+      <workItem from="1571639265454" duration="48000" />
+      <workItem from="1571641071098" duration="2611000" />
+      <workItem from="1571793451883" duration="7544000" />
+      <workItem from="1571881829232" duration="3640000" />
+      <workItem from="1571969565778" duration="9325000" />
+    </task>
+    <task id="LOCAL-00001" summary="五子棋">
+      <created>1571024960294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571024960294</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="229607000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.2611051" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" visible="true" weight="0.29577464" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21018419" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.29545453" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.2892741" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23987207" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.2611051" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" visible="true" weight="0.40628386" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21103896" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.29545453" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.2892741" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="五子棋" />
+    <option name="LAST_COMMIT_MESSAGE" value="五子棋" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="beanName.equals(&quot;service1&quot;)" language="JAVA" />
+          <url>jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="beanName.equals(&quot;userServiceImpl&quot;)" language="JAVA" />
+          <url>jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>1402</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>1213</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>1416</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java</url>
+          <line>330</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java</url>
+          <line>311</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>beanName.equals(&quot;userServiceImpl&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>beanName.equals(&quot;service1&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>beanName.equals(&quot;userDaoImpl&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>beanName.equals(&quot;userService&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>ConfigurationUtil.AOP_POINTCUT_ANNOTATION</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../../../jdk/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1135">
+          <caret line="916" column="38" selection-start-line="916" selection-start-column="35" selection-end-line="916" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="245" column="45" selection-start-line="245" selection-start-column="45" selection-end-line="245" selection-end-column="45" />
+          <folding>
+            <element signature="e#5723#5724#0" expanded="true" />
+            <element signature="e#5778#5779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/AnnotatedGenericBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#4023#4024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanDefinitionHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#3521#3522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE-sources.jar!/org/springframework/util/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE-sources.jar!/org/springframework/core/io/AbstractResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE-sources.jar!/org/springframework/core/io/DescriptiveResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE-sources.jar!/org/springframework/core/type/StandardClassMetadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#1649#1650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="286" selection-start-line="286" selection-end-line="286" />
+          <folding>
+            <element signature="e#35044#35045#0" expanded="true" />
+            <element signature="e#35073#35074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="894" selection-start-line="894" selection-end-line="894" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScanAnnotationParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE-sources.jar!/org/springframework/core/type/filter/AbstractTypeHierarchyTraversingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="e#4235#4236#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE-sources.jar!/org/springframework/core/type/filter/TypeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-scan/src/main/java/com/luban/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/ImportBeanDefinitionRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-boot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8132">
+          <caret line="532" column="67" selection-start-line="532" selection-start-column="67" selection-end-line="532" selection-end-column="67" />
+          <folding>
+            <element signature="e#18958#18959#0" expanded="true" />
+            <element signature="e#19002#19003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4655">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-boot/src/main/java/com/luban/config/MyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2-sources.jar!/org/mybatis/spring/annotation/MapperScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2-sources.jar!/org/mybatis/spring/annotation/MapperScannerRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="78" column="88" lean-forward="true" selection-start-line="78" selection-start-column="88" selection-end-line="78" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2-sources.jar!/org/mybatis/spring/support/SqlSessionDaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/FactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/session/SqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="266" column="32" selection-start-line="266" selection-start-column="32" selection-end-line="266" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="318" column="48" selection-start-line="318" selection-start-column="48" selection-end-line="318" selection-end-column="48" />
+          <folding>
+            <element signature="e#3565#3566#0" expanded="true" />
+            <element signature="e#3592#3593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="159" column="46" selection-start-line="159" selection-start-column="46" selection-end-line="159" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2-sources.jar!/org/mybatis/spring/mapper/ClassPathMapperScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1324">
+          <caret line="71" column="87" selection-start-line="71" selection-start-column="70" selection-end-line="71" selection-end-column="87" />
+          <folding>
+            <element signature="e#2932#2933#0" expanded="true" />
+            <element signature="e#2964#2965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2-sources.jar!/org/mybatis/spring/mapper/MapperFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="53" column="85" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8021">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2-sources.jar!/org/mybatis/spring/config/MapperScannerBeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/ConfigurableApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2-sources.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="396" column="3" selection-start-line="396" selection-start-column="3" selection-end-line="396" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="420" selection-start-line="420" selection-end-line="420" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/com/google/guava/guava/21.0/guava-21.0.jar!/com/google/common/cache/Cache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="2224" column="17" selection-start-line="2224" selection-start-column="17" selection-end-line="2224" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-Resubmit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResubmitLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="85" lean-forward="true" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/Resubmit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResponseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResponseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/RequestDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/config/ResubmitDataAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-Resubmit/src/main/java/com/luban/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>demo-Resubmit</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework:spring-context:5.1.9.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
