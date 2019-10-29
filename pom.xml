@@ -21,6 +21,9 @@
         <module>demo-mq</module>
         <module>demo-scan</module>
         <module>demo-Resubmit</module>
+        <module>demo-mysqlLock</module>
+        <module>demo-mysqlLock</module>
+        <module>demo-mysql</module>
     </modules>
 
     <dependencies>
