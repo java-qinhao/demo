@@ -24,6 +24,9 @@
         <module>demo-mysqlLock</module>
         <module>demo-mysqlLock</module>
         <module>demo-mysql</module>
+        <module>demo-autowride</module>
+        <module>demo-jol</module>
+        <module>demo-lambda</module>
     </modules>
 
     <dependencies>
